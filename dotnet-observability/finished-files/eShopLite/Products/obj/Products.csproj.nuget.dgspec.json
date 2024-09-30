@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Products\\Products.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\DataEntities\\DataEntities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\DataEntities\\DataEntities.csproj",
+        "projectName": "DataEntities",
+        "projectPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\DataEntities\\DataEntities.csproj",
+        "packagesPath": "C:\\Users\\A479296\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\DataEntities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A479296\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Diagnostics\\Diagnostics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Diagnostics\\Diagnostics.csproj",
+        "projectName": "Diagnostics",
+        "projectPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Diagnostics\\Diagnostics.csproj",
+        "packagesPath": "C:\\Users\\A479296\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Diagnostics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A479296\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Monitor.OpenTelemetry.AspNetCore": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "OpenTelemetry.Exporter.Prometheus.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.0-rc.1, )"
+            },
+            "OpenTelemetry.Exporter.Zipkin": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Instrumentation.EventCounters": {
+              "target": "Package",
+              "version": "[1.5.1-alpha.1, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Products\\Products.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Products\\Products.csproj",
+        "projectName": "Products",
+        "projectPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Products\\Products.csproj",
+        "packagesPath": "C:\\Users\\A479296\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Products\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A479296\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\DataEntities\\DataEntities.csproj": {
+                "projectPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\DataEntities\\DataEntities.csproj"
+              },
+              "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Diagnostics\\Diagnostics.csproj": {
+                "projectPath": "C:\\Users\\A479296\\Repositories\\monitoring-workshops\\dotnet-observability\\finished-files\\eShopLite\\Diagnostics\\Diagnostics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Telemetry": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
